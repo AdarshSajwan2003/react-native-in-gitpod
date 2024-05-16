@@ -10,7 +10,7 @@ RUN install-packages build-essential libkrb5-dev gcc make gradle android-tools-a
 # Install Open JDK
 USER root
 RUN apt update \
-    && apt install openjdk-21-jdk -y 
+    && apt install openjdk-17-jdk -y 
 
 # Install SDK Manager
 USER gitpod
